@@ -12,10 +12,16 @@ body{
     margin: 21px 21px 21px 21px ; 
   	text-align: center; /* centering all the texts in the class "bodyy" */
 }
-/* large class : assigning a minimum height to the body of the page. to avoid very small pages */
+/* large class and large2: assigning a minimum height to the body of the page. to avoid very small pages */
+/* Also definning the backroung image */
 .large{
 	  background-image: url("../image/paper.jpg");
 	  min-height: 500px;
+}
+
+.large2{
+  background: #ffffff; /* white color */
+  min-height: 500px;
 }
 /* this "bg" class and sub-classes related to it (bg h1, bg p) is mainly to manage the display and position of everything that is under the header element */
 .bg{
@@ -74,15 +80,6 @@ th{
   background: #00008f; 
 }
 
-#scroll{
-  padding: 4px 4px 4px 4px ;
-  margin: 21px 21px 21px 35px ; 
-  min-height: 300px;
-  max-width:1200px;
-  justify-content: center;
-  border: 1px solid rgb(207, 140, 81);
-  background: rgb(207, 140, 81); /* brown color */
-}
 /*this element and all sub-element related to it (header a, header li, etc...) discribes how the head of the page will be displayed (including menu buttons) */
 header{
   background: #00678f; /* a blue color for the header of the page*/
@@ -127,7 +124,7 @@ footer{
   padding: 20px;
   margin-top: 0;
   color: #ffffff;
-  background-color: #00006f;  /* a blue color for the footer */
+  background-color: #00678f;  /* a blue color for the footer */
   text-align: center;
 }
 /* for buttons that are not in the header */
@@ -138,4 +135,11 @@ footer{
     padding: 5px 8px 5px 8px;
     margin-bottom: 14px;
     border: 1px solid white;
+}
+
+.product{
+  background-color: #00678f;  /* a blue color for the product background*/
+  font-family: 'montserrat';
+  padding: 10px;
+  margin:10px;
 }
